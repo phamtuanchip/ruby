@@ -33,7 +33,7 @@ class ArticlesController < ApplicationController
 	  @article = Article.find(params[:id])
 	 
 	  if @article.update(article_params)
-		 return @article) 
+		 return @article
 		 
 	  else
 		render 'edit'  
